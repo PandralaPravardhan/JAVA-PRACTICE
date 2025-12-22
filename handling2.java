@@ -27,11 +27,9 @@ public class handling2  {
         }
         try {
             Scanner sc = new Scanner(System.in);
-            int val = sc.nextInt();   // expecting number
+            int val = sc.nextInt();  
         } catch (java.util.InputMismatchException e) {
             System.out.println("Input Mismatch Exception caught");
         }
     }
 }
-
-

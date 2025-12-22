@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class fibseries {
-
-    // Recursive Fibonacci function
     public static int Series(int a) {
         if (a == 1) {
             return 0;
@@ -12,7 +10,6 @@ public class fibseries {
             return Series(a - 1) + Series(a - 2);
         }
     }
-
     public static void main(String[] args) {
         System.out.println("Enter the number of sequences:-");
         Scanner sc=new Scanner(System.in);
